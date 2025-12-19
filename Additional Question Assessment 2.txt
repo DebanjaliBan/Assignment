@@ -1,0 +1,24 @@
+Addiitonal Question AS2
+
+Compute 3-Day Moving Average of PriceClose  
+For each instrument, calculate a 3-day moving average of PriceClose.
+
+-----------------------------
+Trader Weekly Volume Spike
+Problem: Flag traders whose weekly volume > 2× their average weekly volume.
+------------------------
+Rank Instruments by Volatility
+Problem: Rank instruments by standard deviation of daily returns.
+-----------------------
+
+Flag Traders with Daily Quantity > 3× Their 30-Day Avg
+-----------------------
+Feature: Price Deviation from Market Close
+Objective:
+Calculate average percentage deviation of trade prices from the official market closing price for each instrument-day.
+-----------------------
+Daily VWAP from Trades + Market (by Instrument-Day)
+Goal: For each instrument and trading day, compute VWAP from trades and compare it with the market’s closing price.
+ 
+VWAP = Σ(Price×Quantity) / Σ(Quantity);
+

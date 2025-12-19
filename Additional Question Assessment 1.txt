@@ -1,0 +1,33 @@
+Additional questions AS1:
+
+Categorize Performance Levels
+Classify each stock into performance buckets for reporting:
+•	Excellent if Return > 20%
+•	Moderate if 5% ≤ Return ≤ 20%
+•	Poor if Return < 5%
+This categorization supports executive dashboards and investor reports.
+________________________________
+
+Generate Sector-Level Insights 
+Aggregate data by sector to compute:
+•	Average return percentage
+•	Number of stocks in each sector
+This helps in understanding sector performance and guiding sector allocation strategies.
+
+________________________________________
+
+Sector Risk Profiling
+Assign a risk score to each sector based on volatility (e.g., standard deviation of returns). This helps risk managers prioritize sectors.
+
+________________________________________
+
+Create Alerts for Extreme Loss 
+If any stock loses more than 15%, generate an alert message in a separate file for immediate attention.
+________________________________________
+Simulate Future Price
+Apply a simple growth assumption (e.g., +5% for gainers, -3% for losers) to predict next month’s price and add it as a new column ProjectedPrice.
+
+________________________________________
+
+Calculate Portfolio Exposure by Sector
+Your investment team wants to understand how much of the portfolio is concentrated in each sector. Compute the percentage of total investment allocated to each sector and add a column SectorExposure for reporting.
